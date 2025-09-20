@@ -1,0 +1,14 @@
+name: BeautifulBans
+main: me.gomania.beautifulbans.BeautifulBans
+version: '1.0'
+api-version: 1.16
+commands:
+  beautifulban:
+    description: Красивый бан игрока
+    usage: /beautifulban <ник> <причина> <время>
+    permission: beautifulbans.use
+    aliases: [bb]
+permissions:
+  beautifulbans.use:
+    description: Использовать /beautifulban
+    default: op

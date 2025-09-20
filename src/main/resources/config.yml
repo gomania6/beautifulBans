@@ -1,0 +1,10 @@
+# BeautifulBans Config
+
+# Команда для бана (используется с консоли)
+ban-command: "ban %player% %reason% %time%"
+
+# Сообщение о бане для всех игроков
+ban-broadcast: "&cИгрок %player% был красиво забанен!"
+
+# Формат сообщения с причиной бана
+ban-reason-chat: "&eПричина: %reason%"
